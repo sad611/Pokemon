@@ -1,6 +1,7 @@
 {
   "license": "0BSD",
   "main": "index.js",
+  "homepage": "https://sad611.github.io/Pokemon",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -8,25 +9,28 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~53.0.20",
-    "expo-status-bar": "~2.2.3",
-    "react": "19.0.0",
-    "react-native": "0.79.5",
-    "mobx": "5.15.4",
-    "react-is": "^16.8.0",
-    "mobx-react": "6.2.3",
-    "expo-constants": "~17.1.7",
-    "styled-components": "*",
-    "react-native-paper": "3.6.0",
-    "expo-navigation-bar": "~4.2.7",
-    "expo-linear-gradient": "~14.1.5",
-    "react-native-screens": "~4.11.1",
-    "@react-navigation/stack": "6.3.20",
-    "react-native-reanimated": "~3.17.4",
+    "@expo/metro-runtime": "~5.0.4",
+    "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/native": "6.1.6",
+    "@react-navigation/stack": "6.3.20",
+    "expo": "~53.0.20",
+    "expo-constants": "~17.1.7",
+    "expo-linear-gradient": "~14.1.5",
+    "expo-navigation-bar": "~4.2.7",
+    "expo-status-bar": "~2.2.3",
+    "mobx": "5.15.4",
+    "mobx-react": "6.2.3",
+    "react": "19.0.0",
+    "react-dom": "^19.0.0",
+    "react-is": "^16.8.0",
+    "react-native": "0.79.5",
     "react-native-gesture-handler": "~2.24.0",
+    "react-native-paper": "3.6.0",
+    "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "5.4.0",
-    "@react-native-community/masked-view": "0.1.10"
+    "react-native-screens": "~4.11.1",
+    "react-native-web": "^0.20.0",
+    "styled-components": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
